@@ -68,7 +68,7 @@ function Reviews() {
                     showLessLabel=" Show less <<"
                     style={{
                       cursor: 'pointer',
-                      color: '#fa7584',
+                      color: '#0051ff',
                       fontWeight: 'bold',
                     }}
                   />

@@ -15,11 +15,11 @@ import noImageFound from '../../img/no-image.jpg';
 import s from './MovieDetailsPage.module.css';
 
 const Cast = lazy(() =>
-  import('../Cast' /* webpackChunkName: "cast-subview"*/),
+  import('../Cast'),
 );
 
 const Reviews = lazy(() =>
-  import('../Reviews' /* webpackChunkName: "reviews-subview"*/),
+  import('../Reviews'),
 );
 
 function MovieDetailsPage() {
