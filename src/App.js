@@ -30,7 +30,7 @@ const NotFoundView = lazy(() =>
 function App() {
   useEffect(() => {
     addBackToTop({
-      backgroundColor: '#fa7584',
+      backgroundColor: '#0051ff',
     });
   }, []);
 
