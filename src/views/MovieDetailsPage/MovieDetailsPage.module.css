@@ -68,7 +68,7 @@
 .title {
   font-family: 'Bangers', sans-serif;
   letter-spacing: 0.2em;
-  color: var(--accentColor);
+  color: var(--primaryTextColor);
 }
 
 .nav {
