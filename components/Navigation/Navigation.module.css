@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  align-items: center;
+  min-height: 90px;
+  padding: 0 40px;
+  background-color: #34495e;
+  box-shadow: var(--boxShadow);
+}
+
+.link {
+  display: inline-block;
+  padding: 14px;
+  font-weight: 700;
+  color: var(--primaryTextColor);
+  font-size: 20px;
+}
+
+.activeLink {
+  composes: link;
+  color: var(--accentColor);
+}
